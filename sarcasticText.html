@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Generator</title>
+    <link rel="stylesheet" href="sarcasticText.css">
+</head>
+
+<body>
+    <div class="typer">
+        <label class="sarcastic">
+            <input type="radio" value="sarcastic" is="sarcastic" name="filter" checked>
+            Sarcastic
+        </label>
+        <label for="funky">
+            <input type="radio" value="funky" id="funky" name="filter">
+            Cryptic
+        </label>
+        <label for="unable">
+            <input type="radio" value="unable" id="unable" name="filter">
+            Unable to Structure a Sentence
+        </label>
+        <textarea name="text">So I was thinking about going to the store.</textarea>
+        <p class="result"></p>
+    </div>
+    <script src="sarcasticText.js"></script>
+</body>
+
+</html>
